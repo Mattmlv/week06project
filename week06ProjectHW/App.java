@@ -10,7 +10,7 @@ public class App {
         //Shuffle the deck
         deck.shuffle();
 
-        // Step 3: Draw cards for both players
+        //Draw cards for both players
         for (int i = 0; i < 52; i++) {
             if (i % 2 == 0) {
                 player1.draw(deck);
